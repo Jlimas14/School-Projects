@@ -1,0 +1,89 @@
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\bin\Debug\net5.0\appsettings.json
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\bin\Debug\net5.0\global.json
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\bin\Debug\net5.0\HW3Project.exe
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\bin\Debug\net5.0\HW3Project.deps.json
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\bin\Debug\net5.0\HW3Project.runtimeconfig.json
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\bin\Debug\net5.0\HW3Project.runtimeconfig.dev.json
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\bin\Debug\net5.0\HW3Project.dll
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\bin\Debug\net5.0\ref\HW3Project.dll
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\bin\Debug\net5.0\HW3Project.pdb
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\bin\Debug\net5.0\HW3Project.Views.dll
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\bin\Debug\net5.0\HW3Project.Views.pdb
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.csproj.AssemblyReference.cache
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.AssemblyInfoInputs.cache
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.AssemblyInfo.cs
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.csproj.CoreCompileInputs.cache
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.RazorAssemblyInfo.cache
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.RazorAssemblyInfo.cs
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\staticwebassets\HW3Project.StaticWebAssets.Manifest.cache
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\staticwebassets\HW3Project.StaticWebAssets.xml
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\scopedcss\bundle\HW3Project.styles.css
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.TagHelpers.input.cache
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.TagHelpers.output.cache
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.RazorCoreGenerate.cache
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.RazorTargetAssemblyInfo.cache
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.RazorTargetAssemblyInfo.cs
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.Views.pdb
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.dll
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\ref\HW3Project.dll
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.pdb
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.genruntimeconfig.cache
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.csproj.CopyComplete
+C:\Users\Jacob\Documents\WOUProjects\CS366\f21-cs366-Jlimas21\6_HW3\HW3Solution\HW3Project\obj\Debug\net5.0\Razor\Views\Home\CompanyResults.cshtml.g.cs
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\bin\Debug\net5.0\appsettings.json
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\bin\Debug\net5.0\global.json
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\bin\Debug\net5.0\HW3Project.StaticWebAssets.xml
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\bin\Debug\net5.0\HW3Project.exe
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\bin\Debug\net5.0\HW3Project.deps.json
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\bin\Debug\net5.0\HW3Project.runtimeconfig.json
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\bin\Debug\net5.0\HW3Project.runtimeconfig.dev.json
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\bin\Debug\net5.0\HW3Project.dll
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\bin\Debug\net5.0\HW3Project.pdb
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\bin\Debug\net5.0\HW3Project.Views.dll
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\bin\Debug\net5.0\HW3Project.Views.pdb
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.csproj.AssemblyReference.cache
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.AssemblyInfoInputs.cache
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.AssemblyInfo.cs
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.csproj.CoreCompileInputs.cache
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.RazorAssemblyInfo.cache
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.RazorAssemblyInfo.cs
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\scopedcss\bundle\HW3Project.styles.css
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\staticwebassets\HW3Project.StaticWebAssets.Manifest.cache
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\staticwebassets\HW3Project.StaticWebAssets.Pack.cache
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\staticwebassets\msbuild.HW3Project.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\staticwebassets\msbuild.build.HW3Project.props
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.HW3Project.props
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.HW3Project.props
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.TagHelpers.input.cache
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.TagHelpers.output.cache
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.RazorCoreGenerate.cache
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\Razor\Views\Home\CompanyResults.cshtml.g.cs
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.RazorTargetAssemblyInfo.cache
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.RazorTargetAssemblyInfo.cs
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.Views.pdb
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.dll
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\refint\HW3Project.dll
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.pdb
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.genruntimeconfig.cache
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\ref\HW3Project.dll
+C:\Users\Jacob\Documents\WOUProjects\CS366\366\Assignment 3\HW3Solution\HW3Project\obj\Debug\net5.0\HW3Project.csproj.CopyComplete

@@ -1,0 +1,57 @@
+﻿@model HW3Project.Models.CompanyData
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Company Form</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+
+<body>
+    <h5 class="text-center">Company Form</h5>
+    <form asp-action="CompanyResults" method="post" class="m-2">
+        <div asp-validation-summary="All"></div>
+        <div class="form-group">
+            <label asp-for="FullName">Full name:</label>
+            <input asp-for="FullName" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="PhoneNum">Phone number:</label>
+            <input asp-for="PhoneNum" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="PersonalEmail">Personal Email:</label>
+            <input asp-for="PersonalEmail" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="CompanyEmail">Company Email:</label>
+            <input asp-for="CompanyEmail" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="State">State:</label>
+            <input asp-for="State" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="City">City:</label>
+            <input asp-for="City" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="DOB">Date of Birth:</label>
+            <input asp-for="DOB" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="CompanyAddress">Company Address:</label>
+            <input asp-for="CompanyAddress" class="form-control" />
+        </div>
+
+        <button type="reset" class="btn btn-secondary">Restart form</button>
+        <button type="submit" class="btn btn-secondary">Submit form</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wGO0JBmHeCWXPKLVYOazZBOLw+KLMLaxsEe+No8ONHPcWj4DzuDumHx9zmbZVZej6TJO+UOPjxonyvz65CodZg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jacob\\Documents\\WOUProjects\\CS366\\366\\Assignment 3\\HW3Solution\\HW3Project\\HW3Project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jacob\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

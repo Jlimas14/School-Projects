@@ -1,0 +1,47 @@
+@model IEnumerable<HW3Project.Models.CompanyData>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Responses</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+
+<body>
+    <div class="text-center p-2">
+        <h2>List of Companies in database</h2>
+        <table class="table table-bordered table-striped table-sm">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Phone Number</th>
+                    <th>Personal Email</th>
+                    <th>Company Email</th>
+                    <th>State</th>
+                    <th>City</th>
+                    <th>Date Of Birth</th>
+                    <th>Company Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (HW3Project.Models.CompanyData r in Model)
+                {
+                    <tr>
+                        <td>@r.FullName</td>
+                        <td>@r.PhoneNum</td>
+                        <td>@r.PersonalEmail</td>
+                        <td>@r.CompanyEmail</td>
+                        <td>@r.State</td>
+                        <td>@r.City</td>
+                        <td>@r.DOB</td>
+                        <td>@r.CompanyAddress</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+</body>
+</html>
