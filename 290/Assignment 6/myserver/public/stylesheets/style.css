@@ -1,0 +1,13 @@
+p {
+  font-size: 16px;
+}
+
+body {
+  background-color: rgb(192, 192, 192);
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: rgb(239, 255, 14);
+}

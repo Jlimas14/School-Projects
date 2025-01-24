@@ -1,0 +1,31 @@
+<%- include("header.ejs") %>
+
+<div class="pokemon">
+  <h1><%- name.charAt(0).toUpperCase() + name.slice(1) %></h1>
+  <h2> Id: <%- id %></h2>
+  <h2> Weight: <%- weight %></h2>
+  <h2> Height: <%- height %></h2>
+  <h2> Types:</h2>
+  <ul>
+    <% for (let t of types) { %>
+      <li><%- t.type.name %></li>
+    <% } %>
+  </ul>
+  <h2> Starting abilities: </h2>
+  <ul>
+    <% for (let a of abilities) { %>
+        <li><%- a.ability.name %></li>
+      <% } %>
+  </ul>
+  <h2> Base stats: </h2>
+  <ul>
+    <% for (let s of stats) { %>
+        <li><%- s.stat.name + ": " + s.base_stat%> </li>
+      <% } %>
+  </ul>
+</div>
+<hr>
+<a href="/pokemons/">Back to the list</a>
+
+</body>
+</html>
