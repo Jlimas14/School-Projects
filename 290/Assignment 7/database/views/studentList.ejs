@@ -1,0 +1,12 @@
+<%- include("header.ejs", {title:"All Students"}) %>
+
+    <h1>Enrolled Students</h1>
+
+    <ul>
+    <% for (let Student of studentList) { %>
+      <li><a href="<%- Student.url %>"><%- Student.name %></a></li>
+    <% } %>
+    </ul>
+
+  </body>
+</html>

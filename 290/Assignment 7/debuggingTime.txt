@@ -1,0 +1,18 @@
+
+Teacher input:
+Put ===<%- students %>=== in the view somewhere. Does anything appear between the ==='s?
+
+In the router, do a console.log with students before rending the view. Does anything show? Is it []?
+
+In the virtual, print out studentArray before returning. 
+
+If it is [] the find isn't working, Try doing a find without the equals - does it generate students?
+
+If so, either "classRoom" is wrong, or this_.id is not working. Print out this._id and compare it to a full list of students. Are there some that have "classRoom: thatID"?
+
+My thinking after;
+classRoom and this._id is right, so it will have to be when adding classRoom to the student object
+this means that the problem is in addData.js
+
+Result:
+After doing these steps, I found the issue was in addData, I put the wrong name into the studentRecords and the students ended up with a blank classRoom which resulted in giving them nothing. I couldn't figure it out because I forgot to use console.log and didn't notice it on the mongodb.
