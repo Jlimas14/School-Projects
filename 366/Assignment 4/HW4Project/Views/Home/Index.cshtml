@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <h1 class="display-4">RGB Color</h1>
+    <p>Want to know what a particular RGB color looks like?
+        How about it's web color format? Here you go. Uses
+        query strings to send form data to the server, which
+        reads them in the Request object. It then performs the
+        calculation and formats the result in a view to return to you.
+    </p>
+    <a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="RGBColor">Try it out >></a>
+
+
+</div>
+<div>
+    <h1 class="display-4">Color Interpolation</h1>
+    <p>Typical online color choosers are way too useful. We wanted
+        something fun and completely useless.
+        This form POST's the data to the server and uses parameter binding
+        to make it easy.
+    </p>
+    <a class="btn btn-primary" asp-area="" asp-controller="ColorInterpolator" asp-action="Create">Try it out
+        >></a>
+</div>

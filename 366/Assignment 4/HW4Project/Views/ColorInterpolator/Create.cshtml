@@ -1,0 +1,46 @@
+@model ColorInterpolation
+
+@{
+    ViewData["Title"] = "Color Interpolator";
+}
+
+<h2>Interpolate from one color to another</h3>
+    <p>Please enter colors in HTML hexadecimal format: #AABBCC</p>
+    <div style="display: inline-flex;">
+        <form asp-controller="ColorInterpolator" asp-action="Create" method="post" class="m-2"
+            style="height: 232px; width: 500px">
+            <div asp-validation-summary="All"></div>
+            <div>
+                <label>First Color</label>
+                <input asp-for="FirstColor" class="form-control" placeholder="#12B37F" required>
+            </div>
+            <div>
+                <label>Second Color</label>
+                <input asp-for="SecondColor" class="form-control" placeholder="#A13344" required>
+            </div>
+            <div>
+                <label>Number of Colors</label>
+                <input asp-for="Amount" class="form-control" required>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary">Generate Colors</button>
+        </form>
+        @if (Model != null)
+        {
+            <ul style="list-style-type: none;">
+                <b>HTML</b>
+                @foreach (var color in Model.HexList)
+                {
+                    <li>@color</li>
+                }
+            </ul>
+            <ul style="list-style-type: none;">
+                <b>Color</b>
+                @foreach (var color in Model.HexList)
+                {
+                    <div style="padding: 0.75em; background-color: @color">
+                    </div>
+                }
+            </ul>
+        }
+    </div>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jtaGSeYvX0488ZTvvW426oBTOeojsyfJcuoB6y5lSRC2Gzsi9paqNoUASVxPPyiY9SqfysQNwwA4IKrXa9VnSQ==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Jacob\\Documents\\WOUProjects\\CS366\\f21-cs366-Jlimas21\\7_HW4\\HW4Solution\\HW4Project\\HW4Project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jacob\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,30 @@
+@model int?
+
+@{
+    ViewData["Title"] = "RGB Color";
+}
+
+<h1>Enter an RGB Color to see what it looks like!</h1>
+<div style="display: inline-flex;">
+    <form asp-controller="Home" asp-action="RGBColor" method="get" class="m-2" style="height: 232px; width: 500px">
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">R</span>
+            <input type="number" class="form-control" placeholder="0" name="red" required min="0" max="255">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">G</span>
+            <input type="number" class="form-control" placeholder="0" name="green" required min="0" max="255">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">B</span>
+            <input type="number" class="form-control" placeholder="0" name="blue" required min="0" max="255">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Display</button>
+    </form>
+    <div>
+        <div style="padding: 6.5em; background-color: #@ViewBag.RGB">
+        </div>
+        <p>#@ViewBag.RGB</p>
+    </div>
+</div>
