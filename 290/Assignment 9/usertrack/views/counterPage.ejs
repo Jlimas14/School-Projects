@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cookies</title>
+  </head>
+  <body> 
+    <h1>Cookie tracker</h1>
+    <hr>
+    <a href="" onclick="pageTracker(); false;">Refresh</a>
+    <p>You have viewed this page <%- counter %> times on this computer</p>
+    <hr>
+    <form method="POST">
+      <label for="todo">Enter a name</label>
+      <input type="text" id="todo" name="todo" required>
+      <br>
+      <label for="todo">Pick your favorite number from 1 to 4</label>
+      <br>
+        <input type="radio" checked="checked" id="One" name="todo" value=" (1)">
+        <span class="checkmark"></span>
+        <label class="container">One</label>
+        <br>
+        <input type="radio" checked="checked" id="Two" name="todo" value=" (2)">
+        <span class="checkmark"></span>
+        <label class="container">Two</label>
+        <br>
+        <input type="radio" checked="checked" id="Three" name="todo" value=" (3)">
+        <span class="checkmark"></span>
+        <label class="container">Three</label>
+        <br>
+        <input type="radio" checked="checked" id="Four" name="todo" value=" (4)">
+        <span class="checkmark"></span>
+        <label class="container">Four</label>
+        <br>
+      <button type="submit">Submit</button>
+    </form>
+    <ul>
+      <% for(let item of todos) { %>
+        <li><%= item %> </li>
+      <% } %>
+    </ul>
+
+  <script>
+    console.log("----------------------------");
+    console.log("Raw cookies:", document.cookie);
+    let cookieMap = getCookieDictionary( );
+    console.log("Cookies as map:", cookieMap);
+    
+    function pageTracker() {
+      if (req.cookies.counter == '0') {
+          res.send('This is your first visit!');
+      } else {
+          res.send('This is visit number '+ req.cookies.counter +'!');
+      }
+        document.cookie.counter++;
+      console.log("Raw cookies:", document.cookie);
+      //Reload the page
+      location.reload();
+    }
+  </script>
+  </body>
+</html>
