@@ -1,0 +1,50 @@
+h1 {
+    color: rgb(0, 0, 73);
+    font-size: 60px;
+  }
+
+p{
+    color: rgb(73, 21, 0);
+    font-size: 25px;
+ }
+
+body {
+    background-color: rgb(189, 180, 101);
+    align-self: auto;
+}
+
+li{
+    text-align: left;
+    font-size: 30px;
+}
+
+div{
+    margin-left: 8px;
+    border: 1px;
+}
+
+img {
+    width: 450px;
+    height: 300px;
+}
+
+.animalList {
+    list-style-image: url("Llama.gif");
+    list-style-position: inside;
+  }
+
+.payOptions {
+    list-style-position: inside;
+    line-height: 3em;
+}
+
+.btn{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+

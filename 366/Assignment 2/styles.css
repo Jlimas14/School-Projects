@@ -1,0 +1,24 @@
+body{
+    margin:8%;
+    margin-top: 0%;
+    font-family: Verdana, sans-serif;
+    background-color: rgb(194, 194, 194);
+}
+
+div{
+    background-color: white;
+}
+
+#header p{
+    background-color: rgb(25, 86, 167);
+    font-size: 30px;
+    color: rgb(236, 236, 60);
+    text-align: center;
+    margin-bottom: 0%;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    font-size: 24px;
+}
