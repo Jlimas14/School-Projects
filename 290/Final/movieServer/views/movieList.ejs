@@ -1,0 +1,64 @@
+<%- include("shared-header.ejs", {title: "All Movies"}) %> 
+
+    <link rel="stylesheet" href="../stylesheets/moviestyle.css" />
+</head>
+
+<body>
+  <div class="mainheading">
+    <header>
+        <h1>Box Office Database</h1>
+    </header>
+
+    <nav class="mainlinks">
+      <div class="maincontent">
+        <ul>
+          <li>
+            <a title="Home page" href="/index.html">Home</a>
+          </li>
+          <li>
+            <a title="Movie home page" href="#">Movies</a>
+          </li>
+          <li>
+            <a title="User's Data Page" href="/DataTypePages/UserData.html">User data</a>
+          </li>
+          <li>
+            <a title="Actors home page" href="/Actors">Actors</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <main class="maincontent">
+    <!-- <header><h2 class="pagetitle">Movie Database</h2></header> -->
+    <header>
+      <h2 class="pagetitle">List of all movies</h2>
+    </header>
+    <!-- need to make these side by side -->
+    <p><a href="genres">All Movie Genres</a></p>
+<!-- 
+    <section>
+      <p>Find Specific moive or movies that share a genre</p>
+      <label for="inputField">Movie Name:</label>
+      <input type="text" id="inputField" />
+      <input type="hidden" id="listOfMovies" value="<%-// movies %>" />
+      <button id="loadData">Search</button>
+    </section>
+
+    <section class="movieMatch"></section> -->
+
+    
+    <!-- <h3><em>(build ajax filtering data/sort for this page)</em></h3> -->
+
+    <% if(movies.length > 0 ) { %> 
+    <ul class="movieDisplay">
+    <% for(let movie of movies) { _%> 
+    <li><a href="<%- movie.url %> "><%- movie.title %></a></li>
+    <% } %> 
+    </ul>
+    <% } %> 
+
+    <p><a href="create">create new movie</a></p>
+</main>
+
+<%- include("common-footer.ejs") %> 
