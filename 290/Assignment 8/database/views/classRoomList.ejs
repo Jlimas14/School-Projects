@@ -1,0 +1,17 @@
+<%- include("header.ejs", {title:"All Classes"}) %>
+
+    <h1>Classes</h1>
+
+    <ul>
+    <% for (let c of classRoomList) { %>
+      <li><a href="<%- c.url %>"><%- c.className %></a>
+        <br>
+        <i>The class is full: <%- c.full %></i>
+      </li>
+      <br>
+    <% } %>
+    </ul>
+
+    <a href="/classes/create">Create a class</a>
+    
+    <%- include("footer.ejs")%>

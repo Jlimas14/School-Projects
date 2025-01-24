@@ -1,0 +1,88 @@
+<%- include("header.ejs", {title:title }) %>
+
+<% if(locals.errors) { %>
+  <div class="alert alert-danger">
+    <ul class="mb-0">
+      <% errors.forEach(function(error) { %>
+        <li style="color: black;"><%= error %></li>
+      <% }); %>
+    </ul>
+  </div>
+<% } %>
+
+<form method="POST" action="/students/update/<%- student._id %>">
+  <input type="hidden" name="id" value="<%- student._id %>" >
+
+  <div class="mb-3">
+    <label for="name" class="form-label">Name <em>(Required)</em></label>
+    <input type="text" class="form-control" name="name" id="name"
+      value="<%- student.name %>" required>
+  </div>
+
+  <div class="mb-3">
+    <label for="studentId" class="form-label">Student Id <em>(Required)</em></label>
+    <input type="number" class="form-control" name="studentId" id="studentId"
+      value="<%- student.studentId %>" required>
+  </div>
+
+    <div class="mb-3">
+    <label for="age" class="form-label">Age <em>(Required)</em></label>
+    <input type="number" class="form-control" name="age" id="age"
+    value="<%- student.age %>" required min="0">
+  </div>
+
+  <div class="mb-3">
+    <label for="grades" class="form-label">Grades</label>
+    <textarea class="form-control" name="grades" id="grades" rows="8" required
+    aria-describedby="gradesHelp"><%- student.grades.join("\n") -%></textarea>
+    <div id="gradesHelp" class="form-text">Enter one grade per line.</div>
+  </div>
+
+  <div class="mb-3">
+    <label for="major" class="form-label">Major</label>
+    <input type="text" class="form-control" name="major" id="major"
+      value="<%- student.major %>" >
+  </div>
+
+  <div class="mb-3">
+    <label for="favoriteClass" class="form-label">Favorite Class</label>
+    <input type="text" class="form-control" name="favoriteClass" id="favoriteClass"
+      value="<%- student.favoriteClass %>" >
+  </div>
+
+    <p>Pick the class they are in (Only one):</p>
+    <fieldset class="mb-3 ">
+      <legend>Class Rooms</legend>
+      <% for(let c of classes) { %>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" name="classRoom" value="<%- c._id %>"
+          id="classRoom<%- c._id %>" <%- student.classRoom && student.classRoom.equals(c._id) ? "checked" : "" %>>
+          <label for="classRoom<%- c._id %>" class="form-check-label"><%= c.className %></label>
+        </div>
+      <% } %>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="classRoom" value=""
+        id="class_none" <%- !student.classRoom ? "checked" : "" %>>
+        <label for="class_none" class="form-check-label">None</label>
+      </div>
+    </fieldset>
+
+  <hr>
+  <button class="btn btn-primary my-3" type="submit">Submit</button>
+</form>
+
+<script>
+  //Custom validator for the grades text area
+  const grades = document.getElementById("grades");
+  grades.addEventListener("input", function (event) {
+    console.log(grades.value.trim().length);
+    if (grades.value.trim().length > 0) {
+      grades.setCustomValidity("");
+    } else {
+      grades.setCustomValidity("Must have at least one grade");
+    }
+  });
+</script>
+
+<%- include("footer.ejs") %>
+

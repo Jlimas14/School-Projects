@@ -1,0 +1,35 @@
+<%- include("header.ejs", {title:classRoom.className}) %>
+
+    <h1><%- classRoom.className %></h1>
+    <p>Location: <%- classRoom.Location %></p>
+    <p>Course Number: <%- classRoom.crn %></p>
+    <p>Days in class: </p>
+    <ul>
+      <% for (let d of classRoom.days) { %>
+        <li><%- d %></li>
+      <% } %>
+    </ul>
+    <p>Availability in: </p>
+    <ul>
+      <% for (let a of classRoom.availability) { %>
+        <li><%- a %></li>
+      <% } %>
+    </ul>
+
+    <p>Students in class currently:
+      <ul>
+        <% for (let s of students) { %>
+          <li><a href="<%- s.url %>"><%- s.name %></a></li>
+        <% } %>
+      </ul>
+    </p>
+
+    <hr>
+    
+    <ul class="list-unstyled">
+      <li><a href="/classes/update/<%- classRoom._id %>">Update class</a></li>
+      <li><a href="/classes/delete/<%- classRoom._id %>">Delete class</a></li>
+    </ul>
+    
+
+  <%- include("footer.ejs")%>

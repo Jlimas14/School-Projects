@@ -1,0 +1,28 @@
+<%- include("header.ejs", {title:name}) %>
+
+    <div class="student">
+      <h1>Name: <%- name %></h1>
+      <p>Id: <%- studentId %></p>
+      <p>Age: <%- age %></p>
+      <p>Grades:</p>
+      <ul>
+        <% for (let g of grades) { %>
+          <li><%- g %></li>
+        <% } %>
+      </ul>
+      <p>Major: <%- major %></p>
+      <p>Favorite Class: <%- favoriteClass %></p>
+
+      <% if(classRoom) { %>
+        <p>Class: <a href="<%- classRoom.url %>"><%- classRoom.className %></a></p>
+      <% } %>
+    </div>
+
+    <hr>
+    
+    <ul class="list-unstyled">
+      <li><a href="/students/update/<%- _id %>">Update current student</a></li>
+      <li><a href="/students/delete/<%- _id %>">Delete student from database</a></li>
+    </ul>
+
+    <%- include("footer.ejs")%>

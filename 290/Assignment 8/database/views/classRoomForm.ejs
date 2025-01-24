@@ -1,0 +1,82 @@
+<%- include("header.ejs", {title:title }) %>
+
+<% if(locals.errors) { %>
+  <div class="alert alert-danger">
+    <ul class="mb-0">
+      <% errors.forEach(function(error) { %>
+        <li style="color: black;"><%= error %></li>
+      <% }); %>
+    </ul>
+  </div>
+<% } %>
+
+<form method="POST" action="/classes/update/<%- classRoom._id %>">
+  <input type="hidden" name="id" value="<%- classRoom._id %>">
+  
+  <div class="mb-3">
+    <label for="className" class="form-label">Class name <em>(Required)</em></label>
+    <input type="text" class="form-control" name="className" id="className"
+      value="<%- classRoom.className %>" required>
+  </div>
+
+  <div class="mb-3">
+    <label for="Location" class="form-label">Location <em>(Required)</em></label>
+    <input type="text" class="form-control" name="Location" id="Location"
+    value="<%- classRoom.Location %>" required minlength="3">
+  </div>
+
+  <div class="mb-3">
+    <label for="crn" class="form-label">CRN <em>(Required)</em></label>
+    <input type="number" class="form-control" name="crn" id="crn"
+    value="<%- classRoom.crn %>" required max="999999">
+  </div>
+
+  <div class="mb-3">
+    <label for="days" class="form-label">Days</label>
+    <textarea class="form-control" name="days" id="days" rows="4" required
+    aria-describedby="daysHelp"><%- classRoom.days.join("\n") -%></textarea>
+    <div id="daysHelp" class="form-text">Enter the days when there is class (one day per line)</div>
+  </div>
+
+  <div class="mb-3">
+    <label for="availability" class="form-label">Availability</label>
+    <textarea class="form-control" name="availability" id="availability" rows="5" required
+    aria-describedby="availabilityHelp"><%- classRoom.availability.join("\n") -%></textarea>
+    <div id="availabilityHelp" class="form-text">Enter each term available for the class (one term per line)</div>
+  </div>
+
+  <div class="mb-3 form-check">
+    <input class="form-check-input" type="checkbox" name="full" id="full" value="true"
+     <%- classRoom.full ? "checked" : "" %>>
+    <label for="full" class="form-check-label">Is the class Full?</label>
+  </div>
+
+  <hr>
+  <button class="btn btn-primary my-3" type="submit">Submit</button>
+</form>
+
+<script>
+  //validator for availability and days text areass
+  const availability = document.getElementById("availability");
+  availability.addEventListener("input", function (event) {
+    console.log(availability.value.trim().length);
+    if (availability.value.trim().length > 0) {
+      availability.setCustomValidity("");
+    } else {
+      availability.setCustomValidity("Must have at least one term");
+    }
+  });
+
+  const days = document.getElementById("days");
+  days.addEventListener("input", function (event) {
+    console.log(days.value.trim().length);
+    if (days.value.trim().length > 0) {
+      days.setCustomValidity("");
+    } else {
+      days.setCustomValidity("Must have at least one day");
+    }
+  });
+</script>
+
+<%- include("footer.ejs") %>
+
